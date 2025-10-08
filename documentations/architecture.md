@@ -45,6 +45,7 @@ hotel-booking/
 │   │   ├── services/                  ← fonctions pour appeler l’API backend (fetch, axios)  
 │   │   ├── utils/                      ← fonctions utilitaires en frontend  
 │   │   ├── styles/                     ← fichiers CSS ou SCSS  
+│   │   ├── fonts/                      ← polices personnalisées (.woff, .woff2, .ttf, etc.)
 │   │   └── main.js                     ← point d’entrée JS  
 │   ├── index.html  
 │   ├── package.json (si j'utilises bundleur ou outils JS)  

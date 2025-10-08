@@ -1,16 +1,14 @@
 # HotelBookingProjet
-Projet fil rouge Ilaria : Projet #3  Application Web de Réservation en Ligne
+Projet fil rouge Ilaria : Projet #3 - Application Web de Réservation en Ligne
+
+Ce projet répond au cahier des charges du bloc Front-End et Back-End de la formation Développeur Web Full Stack.  
+Il vise à concevoir une application web de réservation de services, incluant un calendrier interactif, des formulaires de réservation et des pages de présentation des services.
 
 Chaque partie possède un fichier README.md spécifique pour détailler son installation et son fonctionnement.
 
 ---
 
-## [Consulter la structure du projet](documentations/architecture.md?plain=1)
-
-
----
-
-## Fonctionnalités prévues
+## Fonctionnalités attendues
 
 - Affichage des services : création de templates pour présenter les services (ou chambres) avec leur description, leur prix et leurs images.  
 - Calendrier interactif : mise en place d’un calendrier permettant de sélectionner les dates et heures de réservation.  
@@ -19,11 +17,11 @@ Chaque partie possède un fichier README.md spécifique pour détailler son inst
 - Accessibilité : respect des normes WCAG et intégration des rôles ARIA pour assurer une navigation accessible à tous.  
 - Communication frontend / backend : connexion entre l’interface utilisateur et l’API Medusa pour la gestion des données et des réservations.
 
+## [Voir la structure du projet](documentations/architecture.md?plain=1)
 
 ---
 
 # Ensemble des langages, outils et services utilisés dans mon projet
-
 
 ## Backend
 - Medusa.js v2 (API REST headless)
@@ -55,12 +53,13 @@ Chaque partie possède un fichier README.md spécifique pour détailler son inst
 
 # Objectif
 
-Ce projet s’inscrit dans le cadre de ma formation de Développeur Web Full Stack.
+Ce projet s’inscrit dans le cadre de ma formation de Développeur Web Full Stack.  
 Il sera présenté en fin de parcours dans le cadre de l’évaluation finale pour la certification.  
 Il me permet de :
 - comprendre la structure d’un projet full stack moderne,  
 - pratiquer Medusa v2 dans un contexte concret,  
-- construire une interface client légère en JavaScript pur,  
+- construire une interface client légère en JavaScript pur avec Bootstrap,  
+- appliquer les exigences du cahier des charges officiel (responsivité, accessibilité, formulaires, calendrier),  
 - apprendre à organiser un dépôt GitHub de manière professionnelle.
 
 ---
@@ -70,5 +69,3 @@ Il me permet de :
 Yannick  
 Formation Développeur Web Full Stack  
 Projet en cours de développement (début de projet le 08/10/2025)
-
-

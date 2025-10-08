@@ -18,6 +18,9 @@ Chaque partie possède un fichier README.md spécifique pour détailler son inst
 
 # Ensemble des langages, outils et services utilisés dans mon projet
 
+## Consulter la structure du projet (documentations/architecture.md)
+
+
 ## Backend
 - Medusa.js v2 (API REST headless)
 - Node.js et TypeScript

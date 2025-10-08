@@ -52,7 +52,7 @@ Chaque partie possède un fichier README.md spécifique pour détailler son inst
 
 ---
 
-## Objectif
+# Objectif
 
 Ce projet s’inscrit dans le cadre de ma formation de Développeur Web Full Stack.
 Il sera présenté en fin de parcours dans le cadre de l’évaluation finale pour la certification.  

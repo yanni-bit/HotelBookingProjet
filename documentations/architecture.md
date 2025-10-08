@@ -20,14 +20,14 @@ hotel-booking/
 │   │   ├── loaders/                 ← scripts à exécuter au démarrage (ex : seed, initialisation)  
 │   │   ├── subscribers/             ← “écouteurs” d’événements Medusa (ex : après création réservation)  
 │   │   ├── migrations/              ← migrations générales  
-│   │   ├── models/                   ← entités / schémas personnalisés  
-│   │   ├── repositories/             ← si je veux des classes d’accès à la base personnalisées  
-│   │   ├── services/                  ← services utilitaires partagés entre modules  
-│   │   ├── utils/                     ← helpers, validations, conversion, etc.  
-│   │   └── index.ts                  ← point d’entrée (initialisation custom)  
-│   ├── medusa-config.ts              ← config de Medusa v2 (plugins, etc.)  
-│   ├── .env                           ← variables d’environnement  
-│   ├── .env.template                  ← modèle d’exemple  
+│   │   ├── models/                  ← entités / schémas personnalisés  
+│   │   ├── repositories/            ← si je veux des classes d’accès à la base personnalisées  
+│   │   ├── services/                ← services utilitaires partagés entre modules  
+│   │   ├── utils/                   ← helpers, validations, conversion, etc.  
+│   │   └── index.ts                 ← point d’entrée (initialisation custom)  
+│   ├── medusa-config.ts             ← config de Medusa v2 (plugins, etc.)  
+│   ├── .env                         ← variables d’environnement  
+│   ├── .env.template                ← modèle d’exemple  
 │   ├── package.json  
 │   ├── tsconfig.json  
 │   ├── tsconfig.server.json  
@@ -40,13 +40,13 @@ hotel-booking/
 │   │   ├── images/
 │   │   └── favicon.ico
 │   ├── src/
-│   │   ├── components/                ← “blocs” réutilisables (ex : carte de chambre)  
-│   │   ├── pages/                     ← pages (home, liste chambres, détail, réservation, profil)  
-│   │   ├── services/                  ← fonctions pour appeler l’API backend (fetch, axios)  
-│   │   ├── utils/                      ← fonctions utilitaires en frontend  
-│   │   ├── styles/                     ← fichiers CSS ou SCSS  
-│   │   ├── fonts/                      ← polices personnalisées (.woff, .woff2, .ttf, etc.)
-│   │   └── main.js                     ← point d’entrée JS  
+│   │   ├── components/               ← “blocs” réutilisables (ex : carte de chambre)  
+│   │   ├── pages/                    ← pages (home, liste chambres, détail, réservation, profil)  
+│   │   ├── services/                 ← fonctions pour appeler l’API backend (fetch, axios)  
+│   │   ├── utils/                    ← fonctions utilitaires en frontend  
+│   │   ├── styles/                   ← fichiers CSS ou SCSS  
+│   │   ├── fonts/                    ← polices personnalisées (.woff, .woff2, .ttf, etc.)
+│   │   └── main.js                   ← point d’entrée JS  
 │   ├── index.html  
 │   ├── package.json (si j'utilises bundleur ou outils JS)  
 │   ├── .gitignore  

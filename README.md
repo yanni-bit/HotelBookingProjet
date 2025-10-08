@@ -14,13 +14,15 @@ Chaque partie possède un fichier README.md spécifique pour détailler son inst
 - Communication entre le frontend et l’API Medusa  
 - Interface simple et responsive
 
+
+## [Consulter la structure du projet](documentations/architecture.md?plain=1)
+
+
+
 ---
 
 # Ensemble des langages, outils et services utilisés dans mon projet
 
-## [Consulter la structure du projet](documentations/architecture.md?plain=1)
-
----
 
 ## Backend
 - Medusa.js v2 (API REST headless)

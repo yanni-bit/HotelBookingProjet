@@ -5,18 +5,19 @@ Chaque partie possède un fichier README.md spécifique pour détailler son inst
 
 ---
 
-## Fonctionnalités prévues
-
-- Consultation des chambres disponibles  
-- Recherche par date, prix ou localisation  
-- Création et gestion de réservations  
-- Gestion des utilisateurs  
-- Communication entre le frontend et l’API Medusa  
-- Interface simple et responsive
-
-
 ## [Consulter la structure du projet](documentations/architecture.md?plain=1)
 
+
+---
+
+## Fonctionnalités prévues
+
+- Affichage des services : création de templates pour présenter les services (ou chambres) avec leur description, leur prix et leurs images.  
+- Calendrier interactif : mise en place d’un calendrier permettant de sélectionner les dates et heures de réservation.  
+- Formulaires de réservation : intégration de formulaires complets pour que les utilisateurs puissent effectuer leurs réservations en ligne.  
+- Responsivité : utilisation de media queries afin d’adapter l’affichage à toutes les tailles d’écran (mobile, tablette, desktop).  
+- Accessibilité : respect des normes WCAG et intégration des rôles ARIA pour assurer une navigation accessible à tous.  
+- Communication frontend / backend : connexion entre l’interface utilisateur et l’API Medusa pour la gestion des données et des réservations.
 
 
 ---

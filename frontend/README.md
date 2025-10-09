@@ -1,4 +1,4 @@
-# README – Frontend du projet HotelBookingProjet
+# README – Frontend du projet HotelBookingProjetBloc3
 
 ## Présentation
 

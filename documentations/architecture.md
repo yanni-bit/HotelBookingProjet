@@ -30,8 +30,6 @@ hotel-booking/
 │   ├── .env.template                ← modèle d’exemple  
 │   ├── package.json  
 │   ├── tsconfig.json  
-│   ├── tsconfig.server.json  
-│   ├── tsconfig.admin.json  
 │   ├── .gitignore  
 │   └── README.md
 │
@@ -42,14 +40,14 @@ hotel-booking/
 │   ├── src/
 │   │   ├── components/               ← “blocs” réutilisables (ex : carte de chambre)  
 │   │   ├── pages/                    ← pages (home, liste chambres, détail, réservation, profil)  
+│   │   ├── scripts/                  ← logique JavaScript du frontend  
 │   │   ├── services/                 ← fonctions pour appeler l’API backend (fetch, axios)  
 │   │   ├── utils/                    ← fonctions utilitaires en frontend  
 │   │   ├── styles/                   ← fichiers CSS ou SCSS  
-│   │   ├── fonts/                    ← polices personnalisées (.woff, .woff2, .ttf, etc.)
-│   │   └── main.js                   ← point d’entrée JS  
-│   ├── index.html  
-│   ├── package.json (si j'utilises bundleur ou outils JS)  
+│   │   └── fonts/                    ← polices personnalisées (.woff, .woff2, .ttf, etc.)
+│   ├── index.html                    ← page d’accueil du site  
 │   ├── .gitignore  
+│   ├── package.json (si j'utilises bundleur ou outils JS)
 │   └── README.md
 │
 ├── docs/                             ← cahier des charges, maquettes, diagrammes, wireframes  
@@ -63,5 +61,4 @@ hotel-booking/
 │
 ├── scripts/                          ← scripts utilitaires (seed DB, nettoyage, etc.)  
 ├── .gitignore  
-├── README.md                         ← aperçu global du projet  
-└── LICENSE (optionnel)
+└── README.md                         ← aperçu global du projet  

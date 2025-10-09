@@ -1,4 +1,4 @@
-# HotelBookingProjet
+# HotelBookingProjetBloc3
 Projet fil rouge Ilaria : Projet #3 - Application Web de Réservation en Ligne
 
 Ce projet répond au cahier des charges du bloc Front-End et Back-End de la formation Développeur Web Full Stack.  
